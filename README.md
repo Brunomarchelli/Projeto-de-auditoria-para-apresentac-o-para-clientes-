@@ -27,8 +27,8 @@ O JSONBin.io é usado para armazenar e compartilhar os dados entre todos os visi
 Abra o `index.html` e encontre estas duas linhas no início do `<script>`:
 
 ```javascript
-const JSONBIN_MASTER_KEY = 'COLE_SUA_MASTER_KEY_AQUI';
-const JSONBIN_BIN_ID     = 'COLE_SEU_BIN_ID_AQUI';
+const JSONBIN_MASTER_KEY = '$2a$10$zmMQkYyuDVZTjofrgEXbI.VjKawwM4n2y66fJpFOjLPAEqaTp118O';
+const JSONBIN_BIN_ID     = '$2a$10$fBHcwJLASVk0VwDdny5vKeF4Uux3INWcLdlU9TkYjLXR6NZ6mlEVO';
 ```
 
 Substitua pelos valores copiados:
