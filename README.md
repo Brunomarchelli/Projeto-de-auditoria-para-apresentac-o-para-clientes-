@@ -27,15 +27,15 @@ O JSONBin.io é usado para armazenar e compartilhar os dados entre todos os visi
 Abra o `index.html` e encontre estas duas linhas no início do `<script>`:
 
 ```javascript
-const JSONBIN_MASTER_KEY = '$2a$10$zmMQkYyuDVZTjofrgEXbI.VjKawwM4n2y66fJpFOjLPAEqaTp118O';
-const JSONBIN_BIN_ID     = '$2a$10$fBHcwJLASVk0VwDdny5vKeF4Uux3INWcLdlU9TkYjLXR6NZ6mlEVO';
+const JSONBIN_MASTER_KEY = '$2a$10$yUknOIugYV6YV81I6aWAGucpNo7QwogRQuiQEZiuSyvR8aSKd6Un.';
+const JSONBIN_BIN_ID     = '6a3100bbf5f4af5e29f9bde5';
 ```
 
 Substitua pelos valores copiados:
 
 ```javascript
-const JSONBIN_MASTER_KEY = '$2a$10$SuaChaveAqui...';
-const JSONBIN_BIN_ID     = '64f3a1b2e3c4d5e6f7a8b9c0';
+const JSONBIN_MASTER_KEY = '$2a$10$yUknOIugYV6YV81I6aWAGucpNo7QwogRQuiQEZiuSyvR8aSKd6Un.';
+const JSONBIN_BIN_ID     = '6a3100bbf5f4af5e29f9bde5';
 ```
 
 ### Passo 4 — Ativar o GitHub Pages
