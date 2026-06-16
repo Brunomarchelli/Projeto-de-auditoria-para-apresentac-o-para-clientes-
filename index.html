@@ -851,7 +851,7 @@ tbody tr:hover td { background: var(--bg3); }
  *
  * ════════════════════════════════════════════════════════════════════ */
 const JSONBIN_MASTER_KEY = '$2a$10$zmMQkYyuDVZTjofrgEXbI.VjKawwM4n2y66fJpFOjLPAEqaTp118O';   // ex: $2a$10$abc...
-const JSONBIN_BIN_ID     = '$2a$10$fBHcwJLASVk0VwDdny5vKeF4Uux3INWcLdlU9TkYjLXR6NZ6mlEVO';        // ex: 64f3a1b2e...
+const JSONBIN_BIN_ID     = '6a3100bbf5f4af5e29f9bde5';        // ex: 64f3a1b2e...
 
 const _JB_URL  = `https://api.jsonbin.io/v3/b/${JSONBIN_BIN_ID}`;
 const _JB_HDR  = () => ({
@@ -867,7 +867,7 @@ let _configured   = false;
 
 function _isConfigured() {
   return JSONBIN_MASTER_KEY !== '$2a$10$zmMQkYyuDVZTjofrgEXbI.VjKawwM4n2y66fJpFOjLPAEqaTp118O' &&
-         JSONBIN_BIN_ID     !== '$2a$10$fBHcwJLASVk0VwDdny5vKeF4Uux3INWcLdlU9TkYjLXR6NZ6mlEVO';
+         JSONBIN_BIN_ID     !== '6a3100bbf5f4af5e29f9bde5';
 }
 
 /* Busca dados do JSONBin (chamado na inicialização e no polling) */
